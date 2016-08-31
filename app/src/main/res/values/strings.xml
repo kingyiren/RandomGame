@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">随机游戏</string>
+    <string name="dice_cheat">骰子作弊</string>
+    <string name="dice_num">骰子点数</string>
+    <string name="mora_cheat">猜拳作弊</string>
+    <string name="mora_num">猜拳点数</string>
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+    <string name="author">作者</string>
+    <string name="wechat_donate">微信捐赠</string>
+    <string name="alipay_donate">支付宝捐赠</string>
+
+    <string-array name="dice_num_options">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="dice_num_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="mora_num_options">
+        <item>剪刀</item>
+        <item>石头</item>
+        <item>布</item>
+    </string-array>
+    <string-array name="mora_num_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

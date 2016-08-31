@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/setting">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="dice_cheat"
+            android:title="@string/dice_cheat" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="dice_cheat"
+            android:entries="@array/dice_num_options"
+            android:entryValues="@array/dice_num_values"
+            android:key="dice_num"
+            android:title="@string/dice_num" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="mora_cheat"
+            android:title="@string/mora_cheat" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="mora_cheat"
+            android:entries="@array/mora_num_options"
+            android:entryValues="@array/mora_num_values"
+            android:key="mora_num"
+            android:title="@string/mora_num" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:key="author"
+            android:summary="veryyoung"
+            android:title="@string/author" />
+        <Preference
+            android:key="donate_alipay"
+            android:title="@string/alipay_donate" />
+        <Preference
+            android:key="donate_wechat"
+            android:title="@string/wechat_donate" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
